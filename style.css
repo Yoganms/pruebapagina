@@ -25,17 +25,12 @@ header nav {
     margin: 20px auto;
     z-index: 1;
 }
-.menu_bar{
+.topnav{
     display: none;
     z-index: 1;
 }
-.menu_bar .bt-menu:hover{
-    color: rgb(48, 2, 2);
-    font-size: 33px;
-}
-.menu_bar .bt-menu #span4:hover{
-    font-size: 43px;
-}
+
+
 header nav ul{
     overflow: hidden;
     list-style: none;
@@ -238,54 +233,67 @@ section img {
 }
 
 @media(min-width: 350px) and (max-width: 600px){
-    header{
-        position:fixed;
-        z-index:100; 
-    }
     header nav {
-        height: 100%;
-        width: 80%;
-        left: -100%;
-        margin: 0px;
-        position: fixed;
+        display: none;
     }
-    header nav ul li {
-        display: block;
-        float: none;
-        border-bottom:1px solid rgba(255, 255, 255, .3);
-        
-    }
-    header nav ul li a{
-        color: rgb(48, 2, 2);
-    }
-    a {
-        color: snow;
-    }
-    .menu_bar{
+    .topnav{
         display: block;
         width: 100%;
         margin-top: -10px;
         background: saddlebrown;
     }
-    .menu_bar .bt-menu{
-        display: block;
-        padding: 20px;
-        background: rgb(225, 120, 9);
+    
+    .topnav {
+        overflow: hidden;
+        background-color: rgba(242, 176, 11, 0.419);
+        position: relative;
+    }
+    
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    
+    .topnav #myLinks {
+        display: none;
+    }
+    
+    
+    /* Style navigation menu links */
+    
+    .topnav a {
+        color: rgb(255, 255, 255);
+        padding: 14px 16px;
         text-decoration: none;
         font-size: 30px;
-        font-weight: bold;
+        display: block;
     }
-    .menu_bar #span4 {
-        float: right;
-        font-size: 40px;
+    
+    
+    /* Style the hamburger menu */
+    
+    .topnav a.icon {
+        background: rgba(250, 111, 5, 0);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
-    header nav ul li a{
-        color: rgb(255, 102, 0);
-        background: #fadf44; 
+    
+    
+    /* Add a grey background color on mouse-over */
+    
+    .topnav a:hover {
+        background-color: rgba(253, 92, 5, 0.357);
+        color: rgb(255, 255, 255);
     }
-    header nav ul li a:hover{
-        color: rgb(61, 27, 4);
-        background: #ffd900;   
-        
+    
+    
+    /* Style the active link (or home/logo) */
+    
+    .active {
+        background-color: #ffffff00;
+        color: rgba(255, 255, 255, 0);
+    }
+    #span0{
+        margin-right: 10px;
     }
 }

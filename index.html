@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="images/puntologo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
     </style>
@@ -19,8 +20,45 @@
 </head>
 
 <header>
-    <div class="menu_bar">
-        <a href="#" class="bt-menu"><container id="span4" class="icon-menu"></container>Menu</a>
+    <div class="topnav">
+        <a href="#home" class="active">MENU</a>
+
+        <div id="myLinks">
+            <a class="btn-neon" href="index.html"><container id="span0" class="icon-home"></container>INICIO
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+            </a>
+            <a class="btn-neon" href="index"><container id="span0" class="icon-happy"></container>COMIC ANIMADO
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+            </a>
+            <a class="btn-neon" href="#contact"><container id="span0" class="icon-eye-plus"></container>REALIDAD AUMENTADA
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+            </a>
+            <a class="btn-neon" href="#about"><container id="span0" class="icon-cart"></container>TIENDA
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+            </a>
+            <a class="btn-neon" href="#about"><container id="span0" class="icon-accessibility"></container>QUIENES SOMOS
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+            </a>
+            <a class="btn-neon" href="#about"><container id="span0" class="icon-mail4"></container>CONTACTO
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+            </a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
     <nav>
@@ -73,8 +111,17 @@
 
     </section>
 
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/menures.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        s
+    </script>
 
 </body>
 
