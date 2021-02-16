@@ -1,0 +1,513 @@
+@charset "utf-8";
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background: #fe8c00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo{
+    margin-top: 120px;
+    text-align: center;
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 60px;
+    word-spacing: -2px;
+    color: #ffffff;
+}
+.contenedor1{
+    text-align: center;
+    height: 2900px;
+}
+/*seccion camiseta 1*/
+.titulo1{
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 40px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-left: -500px;
+    margin-top: 200px;
+}
+.parrafo1{
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-left: -503px;
+    
+}
+
+.pre{
+    margin-top: -350px;
+    margin-left: 290px;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    border: 2px solid #ffffff3d;
+    color: #ffffff;
+    height: 50px;
+    width: 180px;
+    box-sizing: border-box;
+}
+
+.imagen1{
+    margin-left: 600px;
+    margin-top: -350px;
+}
+
+.img1{
+    height: 700px;
+}
+
+.carrito{
+    margin-top: 20px;
+    margin-left: 290px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+    padding: 10px; 
+    border: 1px solid rgb(212, 141, 7); 
+    background-color: rgb(241, 165, 24); 
+}
+.carrito:hover{
+    background-color: #fdd4a1;
+    border: 1px solid #ffc680;
+}
+.ref1{
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-left: -430px;
+    margin-top: -45px;
+}
+
+/*seccion camiseta 2*/
+.titulo2{
+    text-align: center;
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 40px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-top: 500px;
+    margin-left: -500px;
+}
+.parrafo2{
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-left: -503px;
+    
+}
+.pre2{
+    margin-top: -350px;
+    margin-left: 293px;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    border: 2px solid #ffffff3d;
+    color: #ffffff;
+    height: 50px;
+    width: 180px;
+    box-sizing: border-box;
+}
+.imagen2{
+    margin-left: 600px;
+    margin-top: -350px;
+}
+.img2{
+    height: 700px;
+}
+.carrito2{
+    margin-top: 20px;
+    margin-left: 290px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+    padding: 10px; 
+    border: 1px solid rgb(212, 141, 7); 
+    background-color: rgb(241, 165, 24); 
+}
+.carrito2:hover{
+    background-color: #fdd4a1;
+    border: 1px solid #ffc680;
+}
+.ref2{
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-left: -430px;
+    margin-top: -45px;
+}
+
+/*seccion camiseta 3*/
+.titulo3{
+    text-align: center;
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 40px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-top: 500px;
+    margin-left: -500px;
+}
+.parrafo3{
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-left: -503px;
+    
+}
+.pre3{
+    margin-top: -350px;
+    margin-left: 293px;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    border: 2px solid #ffffff3d;
+    color: #ffffff;
+    height: 50px;
+    width: 180px;
+    box-sizing: border-box;
+}
+.imagen3{
+    margin-left: 600px;
+    margin-top: -350px;
+}
+.img3{
+    height: 700px;
+}
+.carrito3{
+    margin-top: 20px;
+    margin-left: 290px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+    padding: 10px; 
+    border: 1px solid rgb(212, 141, 7); 
+    background-color: rgb(241, 165, 24); 
+}
+.carrito3:hover{
+    background-color: #fdd4a1;
+    border: 1px solid #ffc680;
+}
+.ref3{
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-left: -430px;
+    margin-top: -45px;
+}
+
+/*seccion camiseta 4*/
+.titulo4{
+    text-align: center;
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 40px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-top: 500px;
+    margin-left: -500px;
+}
+.parrafo4{
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-left: -503px;
+    
+}
+.pre4{
+    margin-top: -350px;
+    margin-left: 293px;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    border: 2px solid #ffffff3d;
+    color: #ffffff;
+    height: 50px;
+    width: 180px;
+    box-sizing: border-box;
+}
+.imagen4{
+    margin-left: 600px;
+    margin-top: -350px;
+}
+.img4{
+    height: 700px;
+}
+.carrito4{
+    margin-top: 20px;
+    margin-left: 290px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+    padding: 10px; 
+    border: 1px solid rgb(212, 141, 7); 
+    background-color: rgb(241, 165, 24); 
+}
+.carrito4:hover{
+    background-color: #fdd4a1;
+    border: 1px solid #ffc680;
+}
+.ref4{
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: -2px;
+    color: #ffffff;
+    margin-left: -430px;
+    margin-top: -45px;
+}
+.flecha{
+    margin-left: -800px;
+    margin-top: 117px;
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+
+    .contenedor1{
+        height: 1550px;
+    }
+
+    .titulo{
+        font-size: 50px;
+    }
+    /*seccion camiseta 1*/
+    .titulo1{
+        font-size: 30px;
+        word-spacing: -2px;
+        margin-left: -230px;
+        margin-top: 110px;
+    }
+    .parrafo1{
+        font-size: 15px;
+        word-spacing: -2px;
+        margin-left: -230px;
+        
+    }
+    
+    .pre{
+        margin-top: -160px;
+        margin-left: 52px;
+        font-size: 20px;
+        height: 50px;
+        width: 150px;
+    }
+    
+    .imagen1{
+        margin-left: 210px;
+        margin-top: -200px;
+    }
+
+    .img1{
+        height: 350px;
+    }
+    
+    .carrito{
+        margin-top: 10px;
+        margin-left: 50px;
+        height: 55px;
+        width: 55px;
+    }
+
+    .ref1{
+        font-size: 17px;
+        word-spacing: -2px;
+        color: #ffffff;
+        margin-left: -170px;
+        margin-top: -40px;
+    }
+
+    /*seccion camiseta 2*/
+    .titulo2{
+        font-size: 30px;
+        word-spacing: -2px;
+        margin-left: -230px;
+        margin-top: 160px;
+    }
+    .parrafo2{
+        font-size: 15px;
+        word-spacing: -2px;
+        margin-left: -230px;
+        
+    }
+    
+    .pre2{
+        margin-top: -160px;
+        margin-left: 52px;
+        font-size: 20px;
+        height: 50px;
+        width: 150px;
+    }
+    
+    .imagen2{
+        margin-left: 210px;
+        margin-top: -200px;
+    }
+
+    .img2{
+        height: 350px;
+    }
+    
+    .carrito2{
+        margin-top: 10px;
+        margin-left: 50px;
+        height: 55px;
+        width: 55px;
+    }
+
+    .ref2{
+        font-size: 17px;
+        word-spacing: -2px;
+        color: #ffffff;
+        margin-left: -170px;
+        margin-top: -40px;
+    }
+
+    /*seccion camiseta 3*/
+    .titulo3{
+        font-size: 30px;
+        word-spacing: -2px;
+        margin-left: -230px;
+        margin-top: 160px;
+    }
+    .parrafo3{
+        font-size: 15px;
+        word-spacing: -2px;
+        margin-left: -230px;
+        
+    }
+    
+    .pre3{
+        margin-top: -160px;
+        margin-left: 52px;
+        font-size: 20px;
+        height: 50px;
+        width: 150px;
+    }
+    
+    .imagen3{
+        margin-left: 210px;
+        margin-top: -200px;
+    }
+
+    .img3{
+        height: 350px;
+    }
+    
+    .carrito3{
+        margin-top: 10px;
+        margin-left: 50px;
+        height: 55px;
+        width: 55px;
+    }
+
+    .ref3{
+        font-size: 17px;
+        word-spacing: -2px;
+        color: #ffffff;
+        margin-left: -170px;
+        margin-top: -40px;
+    }
+
+    /*seccion camiseta 4*/
+    .titulo4{
+        font-size: 30px;
+        word-spacing: -2px;
+        margin-left: -230px;
+        margin-top: 160px;
+    }
+    .parrafo4{
+        font-size: 15px;
+        word-spacing: -2px;
+        margin-left: -230px;
+        
+    }
+    
+    .pre4{
+        margin-top: -160px;
+        margin-left: 52px;
+        font-size: 20px;
+        height: 50px;
+        width: 150px;
+    }
+    
+    .imagen4{
+        margin-left: 210px;
+        margin-top: -200px;
+    }
+
+    .img4{
+        height: 350px;
+    }
+    
+    .carrito4{
+        margin-top: 10px;
+        margin-left: 50px;
+        height: 55px;
+        width: 55px;
+    }
+
+    .ref4{
+        font-size: 17px;
+        word-spacing: -2px;
+        color: #ffffff;
+        margin-left: -170px;
+        margin-top: -40px;
+    }
+    .flecha{
+        margin-left: -150px;
+        margin-top: 70px;
+    }
+}
